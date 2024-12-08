@@ -32,12 +32,12 @@ Install dependencies using pip:
 
 ```bash
 pip install pandas numpy lifelines matplotlib seaborn torch scikit-learn shap econml missingno
+```
 
 ---
 
 ### Part 2: Data Requirements and How to Run
 
-```markdown
 ## Data Requirements
 
 The scripts require the following datasets:
@@ -58,12 +58,12 @@ This script preprocesses and merges datasets to create a unified table with feat
 
 ```bash
 python preprocessing_and_merging.py
+```
 
 ---
 
 ### Part 3: Survival and Causal Analysis
 
-```markdown
 ### 2. Survival and Causal Analysis
 
 **Script**: `survival_causal_analysis.py`
@@ -72,12 +72,12 @@ Performs survival analysis using Cox Proportional Hazards and causal inference w
 
 ```bash
 python survival_causal_analysis.py
+```
 
 ---
 
 ### Part 4: Missing Data Visualization
 
-```markdown
 ### 3. Missing Data Visualization
 
 **Script**: `missing_data_visualization.py`
@@ -86,12 +86,12 @@ Visualizes missing data patterns using Missingno.
 
 ```bash
 python missing_data_visualization.py
+```
 
 ---
 
 ### Part 5: Time-to-Next Transfusion Analysis
 
-```markdown
 ### 4. Time-to-Next Transfusion Analysis
 
 **Script**: `time_to_next_transfusion.py`
@@ -100,12 +100,12 @@ Analyzes time between transfusion events and generates distribution plots.
 
 ```bash
 python time_to_next_transfusion.py
+```
 
 ---
 
 ### Part 6: Example Visualizations
 
-```markdown
 ## Example Visualizations
 
 1. **Missing Data Bar Chart**  
